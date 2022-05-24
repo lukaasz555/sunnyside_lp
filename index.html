@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="scss/style.css" />
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div id="wrapper">
+      <main class="startState">
+        <div class="startState--icon">
+          <img src="./images/icon-star.svg" alt="" />
+        </div>
+        <h1 class="startState--h1">How did we do?</h1>
+        <p class="startState--p">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="startState--rate">
+          <button class="rateBtn">1</button>
+          <button class="rateBtn">2</button>
+          <button class="rateBtn">3</button>
+          <button class="rateBtn">4</button>
+          <button class="rateBtn">5</button>
+        </div>
+        <button class="startState--submitBtn">Submit</button>
+        <p class="startState--errorInfo">You have to rate first.</p>
+      </main>
+
+      <!-- Thank you state start -->
+
+      <section class="tyState">
+        <div class="tyState--img">
+          <img src="./images/illustration-thank-you.svg" alt="" />
+        </div>
+        <h3 class="tyState--info">
+          You selected <span class="tyState--info--userRate">X</span> out of
+          <span class="tyState--info--ratioLength">Y</span>
+        </h3>
+        <h1 class="tyState--h1">Thank you!</h1>
+        <p class="tyState--p">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+
+      <!-- WRAPPER end /DIV -->
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

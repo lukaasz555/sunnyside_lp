@@ -1,22 +1,17 @@
 @import "./mixins";
 
-/* #services {
-  display: flex;
-  flex-direction: column;
-} */
-
 #services .cont {
   display: flex;
   flex-direction: column;
   min-height: 520px;
   .servicesDesign {
-    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-image: url("https://lukaasz555.github.io/sunnyside_landingpage/images/desktop/image-graphic-design.jpg);
     min-height: 520px;
     @include bgImgProps;
   }
 
   .servicesPhoto {
-    background-image: url("../images/desktop/image-photography.jpg");
+    background-image: url("https://lukaasz555.github.io/sunnyside_landingpage/images/desktop/image-photography.jpg");
     min-height: 520px;
     @include bgImgProps;
   }

@@ -9,5 +9,5 @@ HTML, SASS, Flexbox, Mobile-first, JS
 
 ## links:
 
-live-demo:
+live-demo: https://lukaasz555.github.io/sunnyside_lp/
 author: https://github.com/lukaasz555

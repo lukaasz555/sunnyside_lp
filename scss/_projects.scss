@@ -1,0 +1,21 @@
+@import "./mixins";
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 720px) {
+  #projects {
+    img {
+      width: 25%;
+    }
+  }
+}

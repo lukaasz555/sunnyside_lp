@@ -1,0 +1,60 @@
+@mixin bgImgProps {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@mixin menuButtons {
+  color: $darkGrayishBlue;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+@mixin contactButton {
+  color: $veryDarkBlue1;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  padding: 5px 15px;
+  font-size: 1rem;
+}
+
+@mixin learnmore-hover-a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-family: Fraunces;
+  text-align: center;
+  padding: 10px 0 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+@mixin learnmore-hover-span {
+  position: absolute;
+  bottom: 12px;
+  height: 6px;
+  width: 100%;
+  opacity: 0.4;
+  width: 0;
+  transition: width 0.45s;
+}
+
+@mixin h3-template {
+  width: 80%;
+  font-size: 1.8rem;
+  font-family: Fraunces;
+  color: #000;
+  padding: 40px 30px 15px;
+  text-align: center;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+@mixin p-template {
+  color: $veryDarkBlue2;
+  padding: 0 30px 30px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
